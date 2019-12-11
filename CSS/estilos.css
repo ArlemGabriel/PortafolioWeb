@@ -11,7 +11,6 @@ html {
     float: left;
     width: 25%;
     background-color:#f1f1f1;
-    height: 300px;
 }
 .row:after{
     content: "";
@@ -21,19 +20,23 @@ html {
 .subtitulos{
     font-family: 'Abel', sans-serif;
     padding: 8px 16px;
+    
 }
 #datospersonales {
     float: left;
     width: 35.5%;
     text-align: left;
-    margin-left: 18px;
+    margin-left: 25px;
     font-family: 'Sulphur Point', sans-serif;
+}
+.titulos{
+    font-size: 26px;
 }
 #datoscurso {
     float: left;
     width: 35.5%;
     text-align: right;
-    margin-right: 18px;
+    margin-right: 25px;
     font-family: 'Sulphur Point', sans-serif;
 }
 .division {
@@ -76,7 +79,7 @@ ul {
     display: block;
     font-family: 'Abel', sans-serif;
     color: #000;
-    padding: 8px 16px;
+    padding: 8px 20px;
     text-decoration: none;
   }
   
@@ -86,6 +89,6 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(228, 98, 12);
     color: white;
   }
