@@ -89,6 +89,6 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(228, 98, 12);
+    background-color: #4CAF50;
     color: white;
   }
