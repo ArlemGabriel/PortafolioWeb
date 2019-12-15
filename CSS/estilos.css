@@ -38,11 +38,8 @@ html {
 
 #icongit{
     float: right;
-    border-radius: 8px;
-    margin-right: 20px;
-    margin-top: 7px;
-    width:50px;
-    height:50px;
+    position: relative;
+    background-color: indigo;
 }
 #iconfb{
     float: right;
