@@ -3,67 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point:300,400,700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
     <title>Portafolio WEB</title>
 </head>
 <body>
-    <div class = "row">
-        <div class = "column" id = "datoscurso">
-            <br><br><br>
-            <h2 class = "titulos">Introducción al Desarrollo Web</h2>
-            <p>Prof.Ericka Solano Fernandez</p>
-            <p>Verano 2019</p>
-            <p>IC-8057</p>
-        </div>
-        <div class = "column" id = "imagen">
-            <img src="Recursos/mifoto.png" alt="Foto Usuario" width="200" height="200" id="imgmifoto">
-            <h1>Arlem Brenes</h1>
-            <h4>Estudiante Ingenieria en Computacion</h4>
-            <h4>Sede Cartago</h4>
-        </div>
-        <div class = "column" id = "datospersonales">
-            <br><br><br>
-            <h2 class = "titulos">Acerca de Mi</h2>
-            <p>Áreas de Interes en IC: Desarrollo de Aplicaciones Móviles, Bases de Datos, Front-End Developer, Administrador de Proyectos</p>
-            <p>Hobbies: Amante de la música, el cine, deporte y los videojuegos</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3" id = "datoscurso">
+                <br><br><br>
+                <h2 class = "titulos">Introducción al Desarrollo Web</h2>
+                <p>Prof.Ericka Solano Fernandez</p>
+                <p>Verano 2019</p>
+                <p>IC-8057</p>
+            </div>
+            <div class="col-3" id = "imagen">
+                <img src="Recursos/mifoto.png" alt="Foto Usuario" width="200" height="200" id="imgmifoto">
+                <h1>Arlem Brenes</h1>
+                <h4>Estudiante Ingenieria en Computacion</h4>
+                <h4>Sede Cartago</h4>
+            </div>
+            <div class="col-3" id = "datospersonales">
+                <br><br><br>
+                <h2 class = "titulos">Acerca de Mi</h2>
+                <p>Áreas de Interes en IC: Desarrollo de Aplicaciones Móviles, Bases de Datos, Front-End Developer, Administrador de Proyectos</p>
+                <p>Hobbies: Amante de la música, el cine, deporte y los videojuegos</p>
+            </div>
         </div>
     </div>
+    
     <div class = "fondodivision"></div>
-    <div class = "row">
-        <div class = "column">
-            <h2 class = "subtitulos">Tareas</h2>
-                <ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <h2 class = "subtitulos">Tareas</h2>
+                <ul class="list-group">
                     <li><a href="Recursos/Full Stack Developer.pdf">Becoming A Full Stack Developer</a></li>
                     <li><a href="Recursos/TimelineWeb.png">Evolución Histórica de la Web</a></li>
                     <li><a href="https://arlemgabriel.github.io/PortafolioWeb/">Portafolio de Asignaciones</a></li>
                     <li><a href="https://arlemgabriel.github.io/CalendarioJavaScript/">Trabajando con JavaScript</a></li>
                     <li><a href="https://arlemgabriel.github.io/ControldeUsuarios/">Control de Usuarios</a></li>
-                    <li><a href="Recursos/Estado del Arte Equipo Angular.pdf">Estado del Arte</a></li>
-                    <li><a href="#OtraAsignacion">Otra Asignacion</a></li>
-                </ul> 
+                    <li><a href="Recursos/ApunteAjax.pdf">Apunte Ajax</a></li>
+                    <li><a href="https://drive.google.com/open?id=1TaxEMHqQSH5rBBesjFGAAx67dkkep-6g">Taller Ajax</a></li>
+                    <li><a href="Recursos/ApunteDjango.pdf">Apunte Django</a></li>
+                    <li><a href="https://drive.google.com/open?id=16hFRLTNAy07xQKA0g7SgQ3wVKj-ZPVQG">Taller Django</a></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h2 class = "subtitulos">Proyectos</h2>
+                <ul class="list-group">
+                    <li><a href="Recursos/ERS.pdf">Especificación Funcional</a></li>
+                    <li><a href="Recursos/Propuesta.pdf">Propuesta Anteproyecto</a></li>
+                    <li><a href="https://github.com/ArlemGabriel/PrototipoinPets">Prototipo</a></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h2 class = "subtitulos">Laboratorios</h2>
+                <ul class="list-group">
+                    <li><a href="https://drive.google.com/open?id=1H2HjMdmue2ihKd9yTYVzUdPl2qqLRPKs"> Laboratorio PHP</a></li>
+                    <li><a href="https://arlemgabriel.github.io/LeafletLab/"> Laboratorio Leaflet (Markers-Routing Machine)</a></li>
+                    <li><a href="https://arlemgabriel.github.io/LeafletClusterMarkers/"> Laboratorio Leaflet (Marker Cluster)</a></li>
+                    <li><a href="Recursos/Paper.pdf"> Laboratorio Leaflet Paper</a></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h2 class = "subtitulos" id="bordeinvestigaciones">Investigaciones</h2>
+                <ul class="list-group">
+                    <li><a href="Recursos/ExposiciónAngular.pdf">Exposición Angular</a></li>
+                    <li><a href="Recursos/InstructivoAngular.pdf">Instructivo de Instalación</a></li>
+                    <li><a href="Recursos/InvestigaciónAngular.pdf">Investigación Angular</a></li>
+                    <li><a href="Recursos/TallerAngular.pdf">Taller Angular</a></li>
+                </ul>
+            </div>
         </div>
-        <div class = "column">
-            <h2 class = "subtitulos">Proyectos</h2>
-                <ul>
-                    <li><a href="Recursos/Propuesta Anteproyecto.pdf">Propuesta Anteproyecto</a></li>
-                    <li><a href="#Proyecto1">Otro Proyecto ...</a></li>
-                </ul> 
-        </div>
-        <div class = "column" id = "firstattribute">
-            <h2 class = "subtitulos" id="bordeinvestigaciones">Investigaciones</h2>
-                <ul>
-                    <li><a href="#Investigacion1">Otra Investigacion ...</a></li>
-                </ul> 
-        </div>
-        <div class = "column">
-            <h2 class = "subtitulos">Laboratorios</h2>
-                <ul>
-                    <li><a href="https://github.com/ArlemGabriel/LaboratorioPHP"> Laboratorio #1 PHP</a></li>
-                    <li><a href="#Laboratorio1"> Otro Laboratorio ...</a></li>
-                </ul> 
-        </div>
+        
     </div>
     <div class="footer">
         
