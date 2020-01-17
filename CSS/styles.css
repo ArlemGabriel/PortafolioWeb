@@ -1,0 +1,115 @@
+
+.index_body_size{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+#index_body {
+    background: url('index_bg.jpg') no-repeat center center fixed;
+  }
+#tareas_body{
+  background: url('tareas_bg.jpg') no-repeat center center fixed;
+}
+#investigaciones_body{
+  background: url('investigaciones_bg.jpg') no-repeat center center fixed;
+  background-color: #fafffc;
+}
+#laboratorios_body{
+  background: url('laboratorios_bg.jpg') no-repeat center center fixed;
+}
+#proyectos_body{
+  background: url('proyectos_bg.jpg') no-repeat center center fixed;
+}
+
+.myBackground {
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+}
+.icongit{
+    width:50px;
+    height:50px;
+}
+.iconfb{
+    width:58px;
+    height:58px;
+}
+
+
+hr.divider {
+    padding: 2px;
+    border: none;
+    border-bottom: 5px double #fafffc;
+    color: #fafffc;
+    text-align: center;
+    margin: 15px;
+  }
+  
+  hr.divider:after {
+    display: inline-block;
+    position: relative;
+    top: -0.1em;
+    font-size: 2.0em;
+    padding: 0 0.5em;
+    font-weight: normal;
+  }
+  
+  .blue-bg {
+    background-color: rgba(32, 120, 155, 0);
+  }
+
+  #div-divider{
+    height: 75%;
+    width: 100%;
+    padding: 25px 0px;
+  }
+
+  .portfolio {
+    background: url('../RES/bg_everest.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: -30px;
+  }
+  
+  .portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    margin-bottom: 30px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    opacity: 0;
+    background-color: rgba(32, 120, 155, 0.356);
+  }
+  
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+
+  .titles-big-blue{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(13, 48, 61);
+  }
+  .titles-big-white{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  
